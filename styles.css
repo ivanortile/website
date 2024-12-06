@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+h1 {
+    font-family: 'Dancing Script', cursive;
+    color: white;
+}
+h2 {
+    font-family: 'Dancing Script', cursive;
+    color: #2a4d69;
+}
+    h3 {
+    font-family: Arial, bold;
+    color: #2a4d69;
+}
+a {
+  text-decoration: none;
+    color: #ff6f61;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.dashboard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: #2a4d69;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.nav-links li a {
+    color: #fff;
+    font-weight: bold;
+}
+.hero {
+    background: url('images/hero-bg.jpg') no-repeat center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+.hero-content h1 {
+    font-size: 5rem;
+}
+.overview {
+    padding: 40px 20px;
+    text-align: center;
+    background: #f9f9f9;
+}
+.provinces-section {
+    padding: 40px 20px;
+    text-align: center;
+    background: url('images/pasalubong_bg.jpg')no-repeat center/cover;
+    
+}
+.provinces-grid {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+.province-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    width: 200px;
+    transition: transform 0.3s;
+}
+.btn {
+    display: inline-block;
+    background: #ff6f61;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+.contact {
+    padding: 40px 20px;
+    background: #f9f9f9;
+    text-align: center;
+}
+.contacts-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.contact-card {
+    text-align: center;
+    max-width: 300px;
+}
+.contact-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #2a4d69;
+    color: #fff;
+}
+
+.back-home {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.back-home .btn {
+    padding: 10px 20px;
+    background: #ff6f61;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+}
+.back-home .btn:hover {
+    background: #2a4d69;
+}

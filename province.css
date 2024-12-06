@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background: #f9f9f9;
+}
+
+h1{font-family: 'Dancing Script', cursive;
+    color: white;
+    text-align: center;
+}
+h2{font-family: 'Dancing Script', cursive;
+    color:#2a4d69;
+    text-align: center;
+}
+ h3 {
+    font-family: Arial;
+    color: #2a4d69;
+    text-align: center;
+}
+.header {
+    background:#2a4d69;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+}
+.history-section, .pasalubong-section {
+    padding: 20px;
+    margin: 20px;
+    background: aliceblue;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.pasalubong-img img {
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.back-home {
+    text-align: center;
+    margin: 20px 0;
+}
+.back-home .btn {
+    display: inline-block;
+    background: #ff6f61;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+.back-home .btn:hover {
+    background: #2a4d69;
+}
+.footer {
+    text-align: center;
+    padding: 10px;
+    background: #2a4d69;
+    color: #fff;
+    font-size: 0.9rem;
+}
